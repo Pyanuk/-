@@ -274,3 +274,47 @@ white-space: nowrap;
     position: relative;
     margin: 0px;
 }
+@media screen and (max-width:980px) {
+    .container-new{
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+    header{
+        height: 600px;
+        background-repeat: no-repeat;
+    }
+    .text-1{
+        font-size: 16px;
+    }
+    .text-2{
+        font-size: 56px;
+        line-height: 65px;
+    }
+    .text-5{
+        width: 100%;
+    }
+    .text-block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text-77{
+        height: 100%;
+        margin-bottom: 30px;
+    }
+    .text-10{
+        font-size: 17px;
+    }
+   .footer-middle{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .image-contaer{
+    margin-top: 10px;
+    background: url(../img/Bitmap\ \(2\).svg)no-repeat center / cover;
+    height: 1757px;
+    width: 100%;
+    background-color: #50583B;
+   }
+
+    
+}
